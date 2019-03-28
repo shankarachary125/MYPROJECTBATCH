@@ -42,11 +42,6 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.naresh</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.2</version>
-		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
 		<dependency>

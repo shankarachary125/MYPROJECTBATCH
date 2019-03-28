@@ -10,6 +10,7 @@ public class StudentCommand {
 	
 	public StudentCommand() {
 		System.out.println("StudentCommand::0-param constructor");
+		System.out.println("This is 0-param Constructor");
 	}
 
 }
