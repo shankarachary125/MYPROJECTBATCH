@@ -7,7 +7,8 @@ import com.nt.bo.StudentBO;
 public class StudentDAOImpl implements StudentDAO {
 	private static final String STUDENT_INSERT_QUERY="INSERT INTO STUDENT VALUES(SNO_SEQ.NEXTVAL,?,?,?)";
 	private JdbcTemplate jt;
-
+        
+	//this is jdbc template
 	public StudentDAOImpl(JdbcTemplate jt) {
 		this.jt = jt;
 	}
